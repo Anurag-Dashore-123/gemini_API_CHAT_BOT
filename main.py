@@ -1,4 +1,4 @@
-import google.generativeai as genai 
+import google.generativeai as genai #pip install google.generativeai)
 genai.generativeai.configure(api_key="YOUR_API_KEY)
 model=gemini.GenerativeModel("gemini-1.5-flash")
 prompt=str(Input("enter prompt:"))
